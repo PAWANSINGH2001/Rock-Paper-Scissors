@@ -56,5 +56,5 @@ function updateScore(){
     let res = document.querySelector('.result');
     res.innerHTML = result;
     let moves = document.querySelector('.moves');
-    moves.innerHTML = `You ${userMove} - ${computerMove} Computer`;
-}
+    moves.innerHTML = `You  <img src="images/${userMove}-emoji.png" class="move-icon"> - <img src="images/${computerMove}-emoji.png" class="move-icon"> Computer`;
+}   
